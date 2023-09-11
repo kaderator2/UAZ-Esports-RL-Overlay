@@ -1,0 +1,230 @@
+body {
+    width: 1920px;
+    height: 1080px;
+}
+
+.mainScorePane,
+.scoreIndicatorLeftDiv,
+.scoreIndicatorRightDiv {
+    position: absolute;
+    width: 1600px;
+    height: 210px;
+    left: 160px;
+    top: 0;
+}
+
+.scoreOverlay {
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.blueName,
+.orangeName,
+.orangeScore,
+.blueScore {
+    display: block;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding-top: -15px;
+    font-size: 35px;
+    top: 0%;
+    color: rgb(226, 233, 235);
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.orangeScoreDiv,
+.blueScoreDiv {
+    position: absolute;
+    top: -3px;
+    width: 89px;
+    height: 70px;
+}
+
+.orangeScoreDiv {
+    left: 900px;
+}
+
+.blueScoreDiv {
+    left: 610px;
+}
+
+.orangeScore,
+.blueScore {
+    font-size: 70px;
+}
+
+.blueNameDiv,
+.orangeNameDiv {
+    position: absolute;
+    top: 95px;
+    width: 470px;
+    height: 55px;
+}
+
+.blueNameDiv {
+    left: 190px;
+}
+
+.orangeNameDiv {
+    left: 935px;
+}
+
+.leftImage,
+.rightImage {
+    margin-top: 16px;
+    height: 60%;
+}
+
+.leftImage {
+    display: block;
+    margin-left: 45px;
+}
+
+.rightImage {
+    display: block;
+    margin-left: 17px;
+}
+
+.leftScoreIndicator {
+    display: block;
+    width: 100%;
+    margin-left: -160px;
+}
+
+.rightScoreIndicator {
+    display: block;
+    width: 100%;
+    margin-left: -160px;
+}
+
+.rightBackPlate {
+    display: block;
+    width: 100%;
+    margin-right: 10px;
+}
+
+/* Middle Stat Block */
+
+.gamesPlayed,
+.time,
+.tGameScore {
+    position: relative;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(0, 28, 72);
+}
+
+.gamesPlayed {
+    top: -200px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.time {
+    top: -235px;
+    font-size: 50px;
+}
+
+.tGameScore {
+    top: -290px;
+    font-size: 80px;
+}
+
+
+/* Formatting for Player Card */
+th {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(244, 237, 229);
+}
+
+td {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(226, 233, 235);
+}
+
+.playerData {
+    margin-top: 4px;
+    margin-bottom: -3px;
+    border-spacing: 0 100px;
+}
+
+th,
+td {
+    width: 3000px;
+}
+
+
+.mainBlock {
+    background: rgb(0, 28, 72);
+    background: linear-gradient(145deg, rgba(0, 28, 72, 1) 0%, rgba(139, 0, 21, 1) 100%);
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+    width: 25%;
+    border: 5px solid #ccc;
+    border-radius: 3px;
+    border-color: #9EABAE;
+    /*background-color: #FB9F89;*/
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.playerPhoto {
+    position: absolute;
+    left: 3%;
+    bottom: 13%;
+    width: 10%;
+}
+
+
+.playerName {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 45px;
+    color: rgb(226, 233, 235);
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.playerNameWrapper {
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    left: 13%;
+    bottom: 9.5%;
+    /*background: rgb(0, 28, 72);*/
+}
+
+.leftBackPlate,
+.rightBackPlate {
+    position: absolute;
+    width: 152px;
+    height: 145px;
+}
+
+.rightBackPlate {
+    clip-path: polygon(100% 0, 100% 35%, 69% 100%, 0 100%, 0 0);
+    background-color: rgb(0, 28, 72);
+    left: 1422px;
+}
+
+.leftBackPlate {
+    clip-path: polygon(0 0, 100% 0, 100% 99%, 29% 100%, 0 34%);
+    background-color: rgba(139, 0, 21, 1);
+    left: 25px;
+}

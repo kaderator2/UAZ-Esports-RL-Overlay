@@ -1,0 +1,26 @@
+body {
+    width: 1920px;
+    height: 1080px;
+}
+
+.mainPane {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 1.5%;
+    width: 20%;
+    padding: 1em;
+    border: 10px solid #ccc;
+    border-radius: 1em;
+    border-color: #21A179;
+    background-image: linear-gradient(red, yellow);
+    /*background-color: #FB9F89;*/
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+img {
+    border-style: double;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
